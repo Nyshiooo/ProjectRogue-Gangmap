@@ -2374,46 +2374,6 @@
 
 	{
 		"type": "Neutral",
-		"title": "Bahama Mamas West",
-		"notes": "Bahama Mamas West is a nightclub located in Del Perro, Los Santos that is currently going through a new ownership process between Thomas Dwayne and Elena Vega.",
-		"wiki_link": "https://nopixel.fandom.com/wiki/Bahama_Mamas_West",
-		"order": 0,
-		"strokecolor": "0080FF",
-		"fillcolor": "0080FF",
-		"latlngarray": [
-			{"lat": -62.468, "lng": -57.117},
-			{"lat": -61.956, "lng": -55.177},
-			{"lat": -61.858, "lng": -54.913},
-			{"lat": -62.216, "lng": -54.359},
-			{"lat": -62.252, "lng": -54.387},
-			{"lat": -62.416, "lng": -54.231},
-			{"lat": -62.715, "lng": -53.781},
-			{"lat": -62.729, "lng": -53.605},
-			{"lat": -63.019, "lng": -53.209},
-			{"lat": -63.367, "lng": -54.253},
-			{"lat": -62.723, "lng": -55.344},
-			{"lat": -63.007, "lng": -56.227}
-		]
-	},
-	{
-		"type": "Neutral",
-		"title": "Red Parking Garage",
-		"notes": "",
-		"wiki_link": "",
-		"order": 0,
-		"strokecolor": "00CAD8",
-		"fillcolor": "00CAD8",
-		"latlngarray": [
-			{"lat": -63.205, "lng": -25.709},
-			{"lat": -63.199, "lng": -23.622},
-			{"lat": -63.245, "lng": -22.875},
-			{"lat": -63.334, "lng": -21.952},
-			{"lat": -65.359, "lng": -23.545},
-			{"lat": -65.185, "lng": -25.698}
-		]
-	},
-	{
-		"type": "Neutral",
 		"title": "Studs Studio",
 		"notes": "Everyone's Favorite Mayoral Elect and Lawyer, Jeremy Stud McStuderson's Studio",
 		"wiki_link": "https://nopixel.fandom.com/wiki/Wu_Chang_Records",
@@ -2425,50 +2385,11 @@
 			{"lat": -63.175, "lng": -38.207},
 			{"lat": -64.112, "lng": -38.207},
 			{"lat": -64.112, "lng": -39.712}
-		],
-		"video": {
-			"yt_id": "OdnK_sitSyw",
-			"yt_user_display": "elevate",
-			"yt_user_link": "channel/UC6ExUz5PDMqWCmzuXcQbEwg"
-		}
-	},
-
-
-
-	
-
-
-	{
-		"id": 4014,
-		"type": "Automotive",
-		"title": "Premium Deluxe Motorsport",
-		"notes": "Premium Deluxe Motorsport, or PDM as most call it, is a car dealership. PDM is the place where most people buy their first car in city.",
-		"wiki_link": "",
-		"order": 0,
-		"strokecolor": "00CAD8",
-		"fillcolor": "00CAD8",
-		"latlngarray": [
-			{"lat": -67.887, "lng": -16.617},
-			{"lat": -68.077, "lng": -14.979},
-			{"lat": -68.552, "lng": -15.474},
-			{"lat": -68.588, "lng": -17.319}
 		]
 	},
-	{
-		"type": "Automotive",
-		"title": "Benny's Original Motor Works",
-		"notes": "Benny's Original Motor Works allows citizens of Los Santos to repair their vehicles, as well as fit specialized equipment and accessories to their cars (such as hydraulics, vinyls, interior mods, and unique paint-jobs).",
-		"wiki_link": "",
-		"order": 0,
-		"strokecolor": "00CAD8",
-		"fillcolor": "00CAD8",
-		"latlngarray": [
-			{"lat": -70.414, "lng": -22.409},
-			{"lat": -70.414, "lng": -20.399},
-			{"lat": -70.697, "lng": -20.399},
-			{"lat": -70.697, "lng": -22.409}
-		]
-	}
+
+
+
 
 
 
@@ -2588,39 +2509,4 @@
 			{"lat": -62.765, "lng": -4.475},
 			{"lat": -62.371, "lng": -7.168}
 		]
-	},
-
-
-	{
-		"type": "Restaurants",
-		"title": "Burger Shot",
-		"notes": "Burger Shot is a chain of fast-food restaurants specializing in hamburgers. Burger Shot is the food of choice in Los Santos. The company offers many delicious menu items.",
-		"wiki_link": "",
-		"order": 0,
-		"strokecolor": "E759E1",
-		"fillcolor": "E759E1",
-		"latlngarray": [
-			{"lat": -66.046, "lng": -50.898},
-			{"lat": -65.492, "lng": -48.888},
-			{"lat": -66.322, "lng": -47.603},
-			{"lat": -66.828, "lng": -49.767}
-		]
-	},
-	{
-		"type": "Restaurants",
-		"title": "UWU Caf\u00e9",
-		"notes": "UwU Caf\u00e9 is a restaurant, where people can get delicious Moshi Ice Cream",
-		"wiki_link": "",
-		"order": 0,
-		"strokecolor": "E759E1",
-		"fillcolor": "E759E1",
-		"latlngarray": [
-			{"lat": -66.759, "lng": -33.115},
-			{"lat": -66.759, "lng": -30.808},
-			{"lat": -68.069, "lng": -30.775},
-			{"lat": -68.069, "lng": -32.857},
-			{"lat": -67.746, "lng": -33.895},
-			{"lat": -67.506, "lng": -33.467},
-			{"lat": -67.216, "lng": -33.221},
-			{"lat": -66.985, "lng": -33.133}
-		]
+	}
