@@ -113,42 +113,6 @@ $(function() {
 			type: 'General',
 			enabled: true,
 		},
-		{
-			name: 'Neutral',
-			icon: 'General/glitches.png',
-			type: 'General',
-			enabled: true,
-		},
-		{
-			name: 'Automotive',
-			icon: 'radar/radar_acsr_race_hotring.png',
-			type: 'General',
-			enabled: true,
-		},
-		{
-			name: 'Heists',
-			icon: 'radar/radar_heist.png',
-			type: 'General',
-			enabled: true,
-		},
-		{
-			name: 'Legal',
-			icon: 'radar/radar_police_station.png',
-			type: 'General',
-			enabled: true,
-	   },
-		{
-			name: 'Medical',
-			icon: 'radar/radar_hospital.png',
-			type: 'General',
-			enabled: true,
-		},
-		{
-			name: 'Restaurants',
-			icon: 'radar/radar_bar.png',
-			type: 'General',
-			enabled: true,
-		},
 		/*
 		{
 			name: 'Deprecated',
