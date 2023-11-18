@@ -2714,8 +2714,8 @@
 		"notes": "Known Terrority of the Mirror Park Bloods",
 		"wiki_link": "",
 		"order": 0,
-		"strokecolor": "FFA500",
-		"fillcolor": "FFA500",
+		"strokecolor": "FF1100",
+		"fillcolor": "FF1100",
 		"latlngarray": [
 			{"lat": -57.155, "lng": 19.074},
 			{"lat": -57.463, "lng": 19.854},
