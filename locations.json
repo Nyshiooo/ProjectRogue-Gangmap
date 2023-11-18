@@ -2253,7 +2253,7 @@
 	{
 		"type": "Territories",
 		"title": "Mirror Park Bloods",
-		"notes": "Known Terrority of the Mirror Park Bloods",
+		"notes": "Known Terrority of the Mirror Park Bloods | Known Members: ",
 		"wiki_link": "",
 		"order": 0,
 		"strokecolor": "FF1100",
@@ -2297,6 +2297,24 @@
 			{"lat": -54.246, "lng": 12.755},
 			{"lat": -55.210, "lng": 16.468},
 			{"lat": -56.963, "lng": 18.094}
+			
+		]
+	},
+	{
+		"type": "Territories",
+		"title": "LS13",
+		"notes": "Known Terrority of the LS13 | Known Members: ",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "FF1100",
+		"fillcolor": "FF1100",
+		"latlngarray": [
+			{"lat": -71.921, "lng": -19.651},
+			{"lat": -72.929, "lng": -15.674},
+			{"lat": -71.709, "lng": -12.312},
+			{"lat": -71.410, "lng": -13.916},
+			{"lat": -71.487, "lng": -17.432},
+			{"lat": -71.605, "lng": -19.102}
 			
 		]
 	},
