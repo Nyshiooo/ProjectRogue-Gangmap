@@ -3322,16 +3322,13 @@
 			{"lat": -58.807, "lng": -79.601},
 			{"lat": -58.579, "lng": -81.381}
 
-		],
-		"video": {
-			"yt_id": "HjADa0q63J4"
-		}
+		]
 	},
 	{
 		"type": "Territories",
 		"title": "Seaside South",
 		"notes": "Seaside is a family group that brings together individuals across both the civilian and criminal spectrum, with several visible public figures, former high ranking gang members, and a wanted terrorist.",
-		"wiki_link": "https://nopixel.fandom.com/wiki/Seaside",
+		"wiki_link": "",
 		"order": 0,
 		"strokecolor": "F073E3",
 		"fillcolor": "8DEDF7",
@@ -3396,7 +3393,7 @@
 		"type": "Territories",
 		"title": "The Korean Mafia",
 		"notes": "The Korean Mafia, also known as the Sun Clan or Kkangpae was started and founded by Sun Moon. Mr. Kebun has given the Sun Clan his blessing.",
-		"wiki_link": "https://nopixel.fandom.com/wiki/Korean_Mafia_(Sun_Clan)",
+		"wiki_link": "",
 		"order": 0,
 		"strokecolor": "FF0000",
 		"fillcolor": "FF0000",
@@ -3410,34 +3407,12 @@
 	},
 	{
 		"type": "Territories",
-		"title": "The Lost MC Stab City",
-		"notes": "The Lost MCs clubhouse, situated in Stab City.",
-		"wiki_link": "https://nopixel.fandom.com/wiki/Lost_MC",
-		"order": 0,
-		"strokecolor": "FF0000",
-		"fillcolor": "FFFFFF",
-		"latlngarray": [
-			{"lat": 41.526, "lng": -15.276},
-			{"lat": 42.033, "lng": -14.013},
-			{"lat": 42.164, "lng": -12.662},
-			{"lat": 41.755, "lng": -11.519},
-			{"lat": 40.756, "lng": -11.014},
-			{"lat": 39.513, "lng": -11.299},
-			{"lat": 38.601, "lng": -11.827},
-			{"lat": 38.492, "lng": -12.989},
-			{"lat": 38.835, "lng": -14.221},
-			{"lat": 39.466, "lng": -15.265},
-			{"lat": 40.568, "lng": -15.814}
-		]
-	},
-	{
-		"type": "Territories",
 		"title": "TKR",
 		"notes": "Known Territory of TKR",
 		"wiki_link": "",
 		"order": 0,
-		"strokecolor": "882222",
-		"fillcolor": "228822",
+		"strokecolor": "FFD700",
+		"fillcolor": "FFD700",
 		"latlngarray": [
 			{"lat": -58.641, "lng": -62.509},
 			{"lat": -58.101, "lng": -61.564},
@@ -3474,43 +3449,6 @@
 			{"lat": -59.411, "lng": -61.131},
 			{"lat": -58.779, "lng": -62.845}
 
-		]
-	},
-	{
-		"type": "Territories",
-		"title": "The Mandem Block",
-		"notes": "The Mandem Block, sometimes referred to as The Mandem Compound, is The Mandem's base of operations, where they live and have most of their meetings.",
-		"wiki_link": "https://nopixel.fandom.com/wiki/Mandem_Block",
-		"order": 0,
-		"strokecolor": "FFC0C0",
-		"fillcolor": "00FF00",
-		"latlngarray": [
-			{"lat": -57.813, "lng": -61.422},
-			{"lat": -57.332, "lng": -61.304},
-			{"lat": -56.825, "lng": -60.999},
-			{"lat": -56.559, "lng": -60.636},
-			{"lat": -56.362, "lng": -60.186},
-			{"lat": -57.329, "lng": -58.615},
-			{"lat": -58.422, "lng": -60.197}
-		],
-		"video": {
-			"yt_id": "Ga3RJc8W3Yc",
-			"yt_user_display": "Zerkaa",
-			"yt_user_link": "zerkaa"
-		}
-	},
-	{
-		"type": "Territories",
-		"title": "The Scrapyard",
-		"notes": "Shared between the bikers, Ashenfell and BBC at different times of the day",
-		"order": 0,
-		"strokecolor": "000000",
-		"fillcolor": "FFFFFF",
-		"latlngarray": [
-			{"lat": 28.165, "lng": 52.123},
-			{"lat": 28.165, "lng": 56.419},
-			{"lat": 23.993, "lng": 56.419},
-			{"lat": 23.993, "lng": 52.123}
 		]
 	},
 	{
@@ -3568,18 +3506,13 @@
 			{"lat": -78.185, "lng": -11.622},
 			{"lat": -78.049, "lng": -12.925},
 			{"lat": -76.609, "lng": -12.925}
-		],
-		"video": {
-			"yt_id": "M6R1aWQXFao",
-			"yt_user_display": "MaximusBlack",
-			"yt_user_link": "user/maximusblack"
-		}
+		]
 	},
 	{
 		"type": "Territories",
 		"title": "Ballas",
 		"notes": "Grove Street Ballas are one of the strongest South Side street gangs and primarily operate out of Davis.",
-		"wiki_link": "https://nopixel.fandom.com/wiki/Ballas",
+		"wiki_link": "",
 		"order": 1,
 		"strokecolor": "551A8B",
 		"fillcolor": "551A8B",
@@ -3644,26 +3577,6 @@
 			{"lat": -73.763, "lng": -13.559},
 			{"lat": -74.460, "lng": -10.461},
 			{"lat": -74.584, "lng": -9.938}
-		],
-		"video": {
-			"yt_id": "BKrA9i91WiQ",
-			"yt_user_display": "Best GTA Highlights",
-			"yt_user_link": "c/BestGTAHighlights"
-		}
-	},
-	{
-		"type": "Territories",
-		"title": "The Block Traphouse",
-		"notes": "Owned by deputy Charlotte Fairfield, the Block Traphouse is the new home for the Block family. They definitely do not sell guns and drugs out of the house and definitely have permission to live on Brouge.",
-		"wiki_link": "https://nopixel.fandom.com/wiki/Mike_Block",
-		"order": 0,
-		"strokecolor": "f70518",
-		"fillcolor": "f70518",
-		"latlngarray": [
-			{"lat": -75.229, "lng": -12.018},
-			{"lat": -75.263, "lng": -11.689},
-			{"lat": -75.405, "lng": -11.909},
-			{"lat": -75.346, "lng": -12.337}
 		]
 	},
 
