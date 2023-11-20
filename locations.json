@@ -2509,7 +2509,54 @@
 			{"lat": -68.969, "lng": -30.607}
 		]
 	},
+	{
+		"type": "Territories",
+		"title": "YG",
+		"notes": "Known Territory of YG Gang",
+		"order": 0,
+		"strokecolor": "5B5B5B",
+		"fillcolor": "5B5B5B",
+		"latlngarray": [
+			{"lat": -51.673, "lng": -66.562},
+			{"lat": -48.020, "lng": -56.719},
+			{"lat": -37.824, "lng": -63.135},
+			{"lat": -43.262, "lng": -83.218},
+			{"lat": -50.598, "lng": -79.746},
+			{"lat": -52.161, "lng": -71.396}
+		]
+	},
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 	{
 		"type": "Neutral",
 		"title": "Alta Street Apartments",
