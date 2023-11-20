@@ -2426,52 +2426,12 @@
 		"strokecolor": "0292FF",
 		"fillcolor": "0292FF",
 		"latlngarray": [
-			{"lat": -76.476, "lng": -13.101},
-			{"lat": -76.481, "lng": -10.134},
-			{"lat": -76.320, "lng": -10.046},
-			{"lat": -76.200, "lng": -9.948},
-			{"lat": -75.694, "lng": -8.212},
-			{"lat": -75.275, "lng": -6.795},
-			{"lat": -74.396, "lng": -3.993},
-			{"lat": -73.525, "lng": -1.301},
-			{"lat": -73.907, "lng": 0.402},
-			{"lat": -74.152, "lng": 1.819},
-			{"lat": -74.233, "lng": 2.830},
-			{"lat": -74.280, "lng": 4.060},
-			{"lat": -74.357, "lng": 3.752},
-			{"lat": -75.295, "lng": 3.401},
-			{"lat": -76.341, "lng": 2.775},
-			{"lat": -76.534, "lng": 2.456},
-			{"lat": -76.811, "lng": 2.324},
-			{"lat": -76.990, "lng": 2.489},
-			{"lat": -77.164, "lng": 2.544},
-			{"lat": -77.528, "lng": 2.456},
-			{"lat": -78.453, "lng": 2.093},
-			{"lat": -78.619, "lng": 1.973},
-			{"lat": -78.716, "lng": 1.698},
-			{"lat": -78.772, "lng": 1.269},
-			{"lat": -78.770, "lng": 0.281},
-			{"lat": -79.121, "lng": -2.433},
-			{"lat": -79.135, "lng": -3.811},
-			{"lat": -79.209, "lng": -5.546},
-			{"lat": -79.227, "lng": -6.129},
-			{"lat": -79.313, "lng": -7.106},
-			{"lat": -79.388, "lng": -9.183},
-			{"lat": -79.434, "lng": -9.626},
-			{"lat": -80.101, "lng": -9.626},
-			{"lat": -80.073, "lng": -11.066},
-			{"lat": -80.224, "lng": -11.088},
-			{"lat": -80.361, "lng": -12.011},
-			{"lat": -79.785, "lng": -12.230},
-			{"lat": -79.428, "lng": -12.274},
-			{"lat": -79.097, "lng": -11.813},
-			{"lat": -78.955, "lng": -11.237},
-			{"lat": -78.913, "lng": -11.248},
-			{"lat": -78.813, "lng": -11.940},
-			{"lat": -78.544, "lng": -11.446},
-			{"lat": -78.185, "lng": -11.622},
-			{"lat": -78.049, "lng": -12.925},
-			{"lat": -76.609, "lng": -12.925}
+			{"lat": -73.476, "lng": -1.346},
+			{"lat": -76.120, "lng": -10.047},
+			{"lat": -76.453, "lng": -10.399},
+			{"lat": -77.272, "lng": -3.983},
+			{"lat": -75.950, "lng": 2.257},
+			{"lat": -74.078, "lng": 2.741}
 		]
 	},
 	{
@@ -2525,10 +2485,69 @@
 			{"lat": -52.161, "lng": -71.396}
 		]
 	},
-
-
-
-
+	{
+		"type": "Territories",
+		"title": "Sinclair Crime Family",
+		"notes": "Known Territory of the Sinclair Crime Family or SCF",
+		"order": 0,
+		"strokecolor": "D11C0F",
+		"fillcolor": "D11C0F",
+		"latlngarray": [
+			{"lat": -47.437, "lng": -2.751},
+			{"lat": -50.564, "lng": -4.487},
+			{"lat": -51.722, "lng": -0.092},
+			{"lat": -48.452, "lng": 1.622}
+		]
+	},
+	{
+		"type": "Territories",
+		"title": "Illuminati",
+		"notes": "Known Territory of the Illuminati",
+		"order": 0,
+		"strokecolor": "444444",
+		"fillcolor": "444444",
+		"latlngarray": [
+			{"lat": -58.285, "lng": -80.477},
+			{"lat": -59.231, "lng": -81.553},
+			{"lat": -60.897, "lng": -77.181},
+			{"lat": -59.711, "lng": -74.412},
+			{"lat": -58.412, "lng": -77.291}
+		]
+	},
+	{
+		"type": "Territories",
+		"title": "AOD MC",
+		"notes": "Known Territory of the Angels of Death Motorcycle Club",
+		"order": 0,
+		"strokecolor": "D10000",
+		"fillcolor": "D10000",
+		"latlngarray": [
+			{"lat": -72.118, "lng": -48.022},
+			{"lat": -72.529, "lng": -49.901},
+			{"lat": -73.957, "lng": -46.531},
+			{"lat": -73.451, "lng": -44.773}
+		]
+	},
+	{
+		"type": "Territories",
+		"title": "Traids",
+		"notes": "The Traids are known to be spotted around the docs, specific area has yet to be identified.",
+		"order": 0,
+		"strokecolor": "CC0000",
+		"fillcolor": "CC0000",
+		"latlngarray": [
+			{"lat": -78.295, "lng": -11.932},
+			{"lat": -78.507, "lng": -28.104},
+			{"lat": -81.608, "lng": -32.982},
+			{"lat": -83.021, "lng": -13.415},
+			{"lat": -83.288, "lng": 11.194},
+			{"lat": -83.184, "lng": 26.355},
+			{"lat": -80.852, "lng": 23.895},
+			{"lat": -80.027, "lng": 9.085},
+			{"lat": -79.013, "lng": 1.175},
+			{"lat": -78.161, "lng": -3.923}
+		]
+	},
 
 
 
