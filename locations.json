@@ -2253,55 +2253,6 @@
 
 	{
 		"type": "Territories",
-		"title": "Ace King",
-		"notes": "Koreans. Blackjack is hosted here.",
-		"wiki_link": "https://nopixel.fandom.com/wiki/Korean_Mafia_(Sun_Clan)",
-		"order": 0,
-		"strokecolor": "FD5E53",
-		"fillcolor": "FD5E53",
-		"latlngarray": [
-			{"lat": -56.038, "lng": -12.526},
-			{"lat": -56.276, "lng": -11.317},
-			{"lat": -57.037, "lng": -11.801},
-			{"lat": -56.773, "lng": -13.064}
-		]
-	},
-	{
-		"type": "Territories",
-		"title": "Alta Street Ruff Rydaz",
-		"notes": "Alta Street Ruff Rydaz (A.K.A The Blocks/Block Gang), are a crew that will do anything and sell anything for $50. Located at the 'poor' apartments.",
-		"wiki_link": "https://nopixel.fandom.com/wiki/Alta_Street_Ruff_Rydaz",
-		"order": 0,
-		"strokecolor": "FFFF00",
-		"fillcolor": "FFFF00",
-		"latlngarray": [
-			{"lat": -65.494, "lng": -25.702},
-			{"lat": -65.594, "lng": -24.263},
-			{"lat": -65.769, "lng": -22.549},
-			{"lat": -66.004, "lng": -20.879},
-			{"lat": -67.202, "lng": -21.984},
-			{"lat": -66.682, "lng": -25.719}
-		]
-	},
-	{
-		"type": "Territories",
-		"title": "Aztecas",
-		"notes": "Aztecas reborn under the leadership of Tom Ryan.",
-		"wiki_link": "https://nopixel.fandom.com/wiki/Aztecas",
-		"order": 0,
-		"strokecolor": "0080FF",
-		"fillcolor": "0080FF",
-		"latlngarray": [
-			{"lat": -72.445, "lng": -1.645},
-			{"lat": -72.668, "lng": -0.744},
-			{"lat": -73.018, "lng": -1.205},
-			{"lat": -73.175, "lng": -1.568},
-			{"lat": -72.802, "lng": -3.095},
-			{"lat": -72.603, "lng": -2.479}
-		]
-	},
-	{
-		"type": "Territories",
 		"title": "Mirror Park Bloods",
 		"notes": "Known Terrority of the Mirror Park Bloods",
 		"wiki_link": "",
