@@ -2528,17 +2528,7 @@
 			{"lat": -73.451, "lng": -44.773}
 		]
 	},
-	{
-		"type": "Territories",
-		"title": "Traids",
-		"notes": "The Traids are known to be spotted around the docs, specific area has yet to be identified.",
-		"order": 0,
-		"strokecolor": "CC0000",
-		"fillcolor": "CC0000",
-		"latlngarray": [
-		
-			
-		]
+
 	},
 
 
