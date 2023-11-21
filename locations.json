@@ -2512,6 +2512,24 @@
 			{"lat": -78.161, "lng": -3.923}
 		]
 	},
+		{
+		"type": "Territories",
+		"title": "Wonkru",
+		"notes": "Wonkru Territory and Headquarters",
+		"order": 0,
+		"strokecolor": "000000",
+		"fillcolor": "000000",
+		"latlngarray": [
+			{"lat": -48.226, "lng": -30.503},
+			{"lat": -50.668, "lng": -30.569},
+			{"lat": -52.976, "lng": -31.030},
+			{"lat": -52.963, "lng": -26.325},
+			{"lat": -53.776, "lng": -22.392},
+			{"lat": -50.877, "lng": -21.338},
+			{"lat": -48.138, "lng": -21.382},
+			{"lat": -48.591, "lng": -26.062}
+		]
+	},
 
 
 
