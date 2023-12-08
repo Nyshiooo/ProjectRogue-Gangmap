@@ -2305,38 +2305,6 @@
 
 	{
 		"type": "Territories",
-		"title": "LS13",
-		"notes": "Relatively New Gang in the city",
-		"wiki_link": "",
-		"order": 0,
-		"strokecolor": "008000",
-		"fillcolor": "008000",
-		"latlngarray": [
-			{"lat": -74.371, "lng": -19.894},
-			{"lat": -74.060, "lng": -21.300},
-			{"lat": -73.823, "lng": -22.421},
-			{"lat": -73.471, "lng": -24.794},
-			{"lat": -73.301, "lng": -25.123},
-			{"lat": -73.130, "lng": -24.969},
-			{"lat": -72.873, "lng": -25.101},
-			{"lat": -72.671, "lng": -25.475},
-			{"lat": -72.354, "lng": -25.409},
-			{"lat": -72.173, "lng": -25.101},
-			{"lat": -71.703, "lng": -25.123},
-			{"lat": -71.676, "lng": -26.112},
-			{"lat": -69.701, "lng": -26.002},
-			{"lat": -69.663, "lng": -22.443},
-			{"lat": -69.785, "lng": -19.674},
-			{"lat": -69.777, "lng": -13.829},
-			{"lat": -69.716, "lng": -11.368},
-			{"lat": -70.276, "lng": -10.703},
-			{"lat": -70.431, "lng": -10.890},
-			{"lat": -70.702, "lng": -9.670},
-			{"lat": -71.250, "lng": -10.841}
-		]
-	},
-	{
-		"type": "Territories",
 		"title": "TKR",
 		"notes": "Known Territory of TKR",
 		"wiki_link": "",
@@ -2390,12 +2358,14 @@
 		"strokecolor": "0292FF",
 		"fillcolor": "0292FF",
 		"latlngarray": [
-			{"lat": -73.476, "lng": -1.346},
-			{"lat": -76.120, "lng": -10.047},
-			{"lat": -76.453, "lng": -10.399},
-			{"lat": -77.272, "lng": -3.983},
-			{"lat": -75.950, "lng": 2.257},
-			{"lat": -74.078, "lng": 2.741}
+			{"lat": -71.238, "lng": -10.866},
+			{"lat": -74.438, "lng": -19.830},
+			{"lat": -73.960, "lng": -21.918},
+			{"lat": -72.836, "lng": -21.874},
+			{"lat": -72.068, "lng": -19.677},
+			{"lat": -71.595, "lng": -21.259},
+			{"lat": -71.032, "lng": -17.963},
+			{"lat": -70.946, "lng": -12.030}
 		]
 	},
 	{
@@ -2435,22 +2405,6 @@
 	},
 	{
 		"type": "Territories",
-		"title": "YG",
-		"notes": "Known Territory of YG Gang",
-		"order": 0,
-		"strokecolor": "5B5B5B",
-		"fillcolor": "5B5B5B",
-		"latlngarray": [
-			{"lat": -51.673, "lng": -66.562},
-			{"lat": -48.020, "lng": -56.719},
-			{"lat": -37.824, "lng": -63.135},
-			{"lat": -43.262, "lng": -83.218},
-			{"lat": -50.598, "lng": -79.746},
-			{"lat": -52.161, "lng": -71.396}
-		]
-	},
-	{
-		"type": "Territories",
 		"title": "Sinclair Crime Family",
 		"notes": "Known Territory of the Sinclair Crime Family or SCF",
 		"order": 0,
@@ -2465,69 +2419,16 @@
 	},
 	{
 		"type": "Territories",
-		"title": "Illuminati",
-		"notes": "Known Territory of the Illuminati",
+		"title": "Yokai",
+		"notes": "Sprayed Area of the Yokai",
 		"order": 0,
-		"strokecolor": "444444",
-		"fillcolor": "444444",
+		"strokecolor": "FF0000",
+		"fillcolor": "FF0000",
 		"latlngarray": [
-			{"lat": -58.285, "lng": -80.477},
-			{"lat": -59.231, "lng": -81.553},
-			{"lat": -60.897, "lng": -77.181},
-			{"lat": -59.711, "lng": -74.412},
-			{"lat": -58.412, "lng": -77.291}
-		]
-	},
-	{
-		"type": "Territories",
-		"title": "AOD MC",
-		"notes": "Known Territory of the Angels of Death Motorcycle Club",
-		"order": 0,
-		"strokecolor": "D10000",
-		"fillcolor": "D10000",
-		"latlngarray": [
-			{"lat": -72.118, "lng": -48.022},
-			{"lat": -72.529, "lng": -49.901},
-			{"lat": -73.957, "lng": -46.531},
-			{"lat": -73.451, "lng": -44.773}
-		]
-	},
-	{
-		"type": "Territories",
-		"title": "Triads",
-		"notes": "The Triads are known to be spotted around the docks, specific area has yet to be identified.",
-		"order": 0,
-		"strokecolor": "CC0000",
-		"fillcolor": "CC0000",
-		"latlngarray": [
-			{"lat": -78.295, "lng": -11.932},
-			{"lat": -78.507, "lng": -28.104},
-			{"lat": -81.608, "lng": -32.982},
-			{"lat": -83.021, "lng": -13.415},
-			{"lat": -83.288, "lng": 11.194},
-			{"lat": -83.184, "lng": 26.355},
-			{"lat": -80.852, "lng": 23.895},
-			{"lat": -80.027, "lng": 9.085},
-			{"lat": -79.013, "lng": 1.175},
-			{"lat": -78.161, "lng": -3.923}
-		]
-	},
-		{
-		"type": "Territories",
-		"title": "Wonkru",
-		"notes": "Wonkru Territory and Headquarters",
-		"order": 0,
-		"strokecolor": "000000",
-		"fillcolor": "000000",
-		"latlngarray": [
-			{"lat": -48.226, "lng": -30.503},
-			{"lat": -50.668, "lng": -30.569},
-			{"lat": -52.976, "lng": -31.030},
-			{"lat": -52.963, "lng": -26.325},
-			{"lat": -53.776, "lng": -22.392},
-			{"lat": -50.877, "lng": -21.338},
-			{"lat": -48.138, "lng": -21.382},
-			{"lat": -48.591, "lng": -26.062}
+			{"lat": -50.863, "lng": -26.265},
+			{"lat": -53.050, "lng": -26.364},
+			{"lat": -53.828, "lng": -22.310},
+			{"lat": -50.919, "lng": -21.552}
 		]
 	},
 
