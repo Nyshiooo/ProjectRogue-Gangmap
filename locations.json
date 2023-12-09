@@ -2251,6 +2251,29 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
 	{
 		"type": "Territories",
 		"title": "Mirror Park Bloods",
@@ -2422,8 +2445,8 @@
 		"title": "Yokai",
 		"notes": "Sprayed Area of the Yokai",
 		"order": 0,
-		"strokecolor": "FF0000",
-		"fillcolor": "FF0000",
+		"strokecolor": "FF8AE6",
+		"fillcolor": "FF8AE6",
 		"latlngarray": [
 			{"lat": -50.863, "lng": -26.265},
 			{"lat": -53.050, "lng": -26.364},
@@ -2452,6 +2475,38 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 
 
 
