@@ -2484,7 +2484,20 @@
 			{"lat": -75.609, "lng": -4.373}
 		]
 	},
-
+	{
+		"type": "POI",
+		"title": "Warehouse",
+		"notes": "Officer Banks reported that there was a man inside seen taking apart a vehicle.",
+		"order": 0,
+		"strokecolor": "FFFFFF",
+		"fillcolor": "FFFFFF",
+		"latlngarray": [
+			{"lat": 0.748, "lng": 29.070},
+			{"lat": -0.790, "lng": 29.201},
+			{"lat": -0.856, "lng": 30.740},
+			{"lat": 0.836, "lng": 30.674}
+		]
+	},
 
 
 
