@@ -108,7 +108,7 @@ $(function() {
 			enabled: true,
 		},
 		{
-			name: 'Illegal Locations',
+			name: 'POI',
 			icon: 'General/wall-breach.png',
 			type: 'General',
 			enabled: true,
