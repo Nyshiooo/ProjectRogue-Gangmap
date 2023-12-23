@@ -2451,7 +2451,39 @@
 		]
 	},
 
-
+	{
+		"type": "Territories",
+		"title": "Illuminati",
+		"notes": "Sprayed Area of the Illuminati",
+		"order": 0,
+		"strokecolor": "000000",
+		"fillcolor": "000000",
+		"latlngarray": [
+			{"lat": -58.430, "lng": -80.299},
+			{"lat": -59.322, "lng": -81.068},
+			{"lat": -60.464, "lng": -77.909},
+			{"lat": -58.838, "lng": -76.206},
+			{"lat": -58.593, "lng": -78.172}
+		]
+	},
+		{
+		"type": "Territories",
+		"title": "Eastside Disciples",
+		"notes": "Sprayed Area of the Eastside Disciples",
+		"order": 0,
+		"strokecolor": "87FF53",
+		"fillcolor": "87FF53",
+		"latlngarray": [
+			{"lat": -76.616, "lng": -8.152},
+			{"lat": -77.285, "lng": -4.307},
+			{"lat": -76.524, "lng": -0.747},
+			{"lat": -75.917, "lng": 2.153},
+			{"lat": -75.316, "lng": 0.813},
+			{"lat": -75.305, "lng": -0.264},
+			{"lat": -74.910, "lng": -1.253},
+			{"lat": -75.609, "lng": -4.373}
+		]
+	},
 
 
 
