@@ -107,6 +107,12 @@ $(function() {
 			type: 'General',
 			enabled: true,
 		},
+		{
+			name: 'Illegal Locations',
+			icon: 'General/wall-breach.png',
+			type: 'General',
+			enabled: true,
+		},
 		/*
 		{
 			name: 'Deprecated',
