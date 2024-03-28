@@ -2274,56 +2274,7 @@
 
 	
 
-	{
-		"type": "Territories",
-		"title": "Mirror Park Bloods",
-		"notes": "Known Terrority of the Mirror Park Bloods",
-		"wiki_link": "",
-		"order": 0,
-		"strokecolor": "FF1100",
-		"fillcolor": "FF1100",
-		"latlngarray": [
-			{"lat": -57.155, "lng": 19.074},
-			{"lat": -57.463, "lng": 19.854},
-			{"lat": -57.903, "lng": 20.362},
-			{"lat": -58.067, "lng": 21.779},
-			{"lat": -58.659, "lng": 22.345},
-			{"lat": -59.426, "lng": 23.325},
-			{"lat": -60.339, "lng": 23.458},
-			{"lat": -60.701, "lng": 24.128},
-			{"lat": -60.941, "lng": 25.831},
-			{"lat": -61.391, "lng": 26.593},
-			{"lat": -62.319, "lng": 26.901},
-			{"lat": -63.996, "lng": 27.069},
-			{"lat": -64.626, "lng": 26.821},
-			{"lat": -65.075, "lng": 25.198},
-			{"lat": -64.641, "lng": 22.023},
-			{"lat": -65.145, "lng": 19.531},
-			{"lat": -65.158, "lng": 18.795},
-			{"lat": -65.166, "lng": 15.461},
-			{"lat": -65.046, "lng": 14.999},
-			{"lat": -64.029, "lng": 12.812},
-			{"lat": -63.745, "lng": 12.142},
-			{"lat": -63.521, "lng": 11.472},
-			{"lat": -63.136, "lng": 9.993},
-			{"lat": -62.876, "lng": 9.114},
-			{"lat": -62.686, "lng": 8.444},
-			{"lat": -62.453, "lng": 7.972},
-			{"lat": -61.529, "lng": 7.983},
-			{"lat": -60.963, "lng": 7.985},
-			{"lat": -60.576, "lng": 7.611},
-			{"lat": -59.097, "lng": 3.986},
-			{"lat": -58.905, "lng": 3.107},
-			{"lat": -58.101, "lng": 3.854},
-			{"lat": -57.445, "lng": 4.250},
-			{"lat": -53.567, "lng": 7.721},
-			{"lat": -54.579, "lng": 10.426},
-			{"lat": -54.246, "lng": 12.755},
-			{"lat": -55.210, "lng": 16.468},
-			{"lat": -56.963, "lng": 18.094}
-			
-		]
-	},
+	
 	
 
 	{
@@ -2438,20 +2389,7 @@
 			{"lat": -69.688, "lng": -6.216}
 		]
 	},
-	{
-		"type": "Territories",
-		"title": "Yokai",
-		"notes": "Sprayed Area of the Yokai",
-		"order": 0,
-		"strokecolor": "FF8AE6",
-		"fillcolor": "FF8AE6",
-		"latlngarray": [
-			{"lat": -50.863, "lng": -26.265},
-			{"lat": -53.050, "lng": -26.364},
-			{"lat": -53.828, "lng": -22.310},
-			{"lat": -50.919, "lng": -21.552}
-		]
-	},
+
 
 	{
 		"type": "Territories",
@@ -2470,11 +2408,11 @@
 	},
 		{
 		"type": "Territories",
-		"title": "Eastside Disciples",
-		"notes": "Sprayed Area of the Eastside Disciples",
+		"title": "Bloods",
+		"notes": "Sprayed Area of the Bloods",
 		"order": 0,
-		"strokecolor": "87FF53",
-		"fillcolor": "87FF53",
+		"strokecolor": "FF1100",
+		"fillcolor": "FF1100",
 		"latlngarray": [
 			{"lat": -76.616, "lng": -8.152},
 			{"lat": -77.285, "lng": -4.307},
