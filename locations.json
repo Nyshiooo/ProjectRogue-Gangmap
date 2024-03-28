@@ -2393,19 +2393,60 @@
 
 	{
 		"type": "Territories",
-		"title": "Illuminati",
-		"notes": "Sprayed Area of the Illuminati",
+		"title": "Black Rose Cartel",
+		"notes": "Known BRC Area",
 		"order": 0,
 		"strokecolor": "000000",
 		"fillcolor": "000000",
 		"latlngarray": [
-			{"lat": -58.430, "lng": -80.299},
-			{"lat": -59.322, "lng": -81.068},
-			{"lat": -60.464, "lng": -77.909},
-			{"lat": -58.838, "lng": -76.206},
-			{"lat": -58.593, "lng": -78.172}
+			{"lat": -73.429, "lng": 17.431},
+			{"lat": -74.823, "lng": 19.207},
+			{"lat": -74.347, "lng": 25.952},
+			{"lat": -73.681, "lng": 25.119},
+			{"lat": -73.145, "lng": 23.526},
+			{"lat": -72.364, "lng": 27.299},
+			{"lat": -71.892, "lng": 27.024},
+			{"lat": -72.113, "lng": 24.267},
+			{"lat": -72.338, "lng": 22.190},
+			{"lat": -72.710, "lng": 21.015},
+			{"lat": -73.034, "lng": 19.554},
+			{"lat": -73.295, "lng": 18.752},
+			{"lat": -73.386, "lng": 18.290}
 		]
 	},
+
+	{
+		"type": "Territories",
+		"title": "Vikings MC",
+		"notes": "Known Area of Vikings MC",
+		"order": 0,
+		"strokecolor": "1A3FA8",
+		"fillcolor": "1A3FA8",
+		"latlngarray": [
+			{"lat": 77.371, "lng": -18.919},
+			{"lat": 77.129, "lng": -17.886},
+			{"lat": 76.934, "lng": -17.117},
+			{"lat": 77.323, "lng": -15.546},
+			{"lat": 77.680, "lng": -17.029}
+		]
+	},
+		{
+		"type": "Territories",
+		"title": "Lost MC",
+		"notes": "Known Area of the Lost MC",
+		"order": 0,
+		"strokecolor": "5B5B5B",
+		"fillcolor": "5B5B5B",
+		"latlngarray": [
+			{"lat": 58.594, "lng": 40.485},
+			{"lat": 58.255, "lng": 40.683},
+			{"lat": 57.971, "lng": 40.562},
+			{"lat": 57.140, "lng": 40.155},
+			{"lat": 57.324, "lng": 41.891},
+			{"lat": 57.854, "lng": 43.286}
+		]
+	},
+	
 		{
 		"type": "Territories",
 		"title": "Bloods",
@@ -2462,8 +2503,8 @@
 		"title": "<Poppy Processor>",
 		"notes": "<Poppy Processor>",
 		"order": 0,
-		"strokecolor": "FF0000",
-		"fillcolor": "FF0000",
+		"strokecolor": "FFFFFF",
+		"fillcolor": "FFFFFF",
 		"latlngarray": [
 			{"lat": 38.173, "lng": 25.361},
 			{"lat": 38.612, "lng": 25.108},
