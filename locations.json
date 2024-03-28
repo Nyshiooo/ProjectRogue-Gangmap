@@ -2424,6 +2424,23 @@
 			{"lat": -75.609, "lng": -4.373}
 		]
 	},
+	
+	{
+		"type": "Territories",
+		"title": "Sharks",
+		"notes": "",
+		"order": 0,
+		"strokecolor": "6E40FF",
+		"fillcolor": "6E40FF",
+		"latlngarray": [
+			{"lat": -71.289, "lng": -47.648},
+			{"lat": -71.988, "lng": -50.988},
+			{"lat": -73.912, "lng": -46.835},
+			{"lat": -73.542, "lng": -44.835},
+			{"lat": -73.133, "lng": -43.890}
+		]
+	},
+	
 	{
 		"type": "POI",
 		"title": "Chop Shop",
