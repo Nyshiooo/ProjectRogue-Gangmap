@@ -2457,7 +2457,20 @@
 	},
 
 
-
+{
+		"type": "POI",
+		"title": "<Poppy Processor>",
+		"notes": "<Poppy Processor>",
+		"order": 0,
+		"strokecolor": "FF0000",
+		"fillcolor": "FF0000",
+		"latlngarray": [
+			{"lat": 38.173, "lng": 25.361},
+			{"lat": 38.612, "lng": 25.108},
+			{"lat": 38.844, "lng": 25.965},
+			{"lat": 38.389, "lng": 26.130}
+		]
+	},
 
 
 
