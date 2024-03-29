@@ -366,7 +366,7 @@ $(function() {
 
 	var MapView = Backbone.View.extend({
 		initialize: function() {
-			this.mapType = 'Atlas';
+			this.mapType = 'Satellite';
 			this.mapDetails = {
 				'Atlas':     '#0FA8D2',
 				'Satellite': '#143D6B',
