@@ -153,12 +153,6 @@ $(function() {
 					enabled: true,
 					url: 'data/legal.4.json',
 				}),
-				new CategoryModel({
-					name: 'Restaurants',
-					icon: 'radar/radar_bar.png',
-					enabled: true,
-					url: 'data/restaurants.4.json',
-				}),
 			]),
 		}),
 	]);
