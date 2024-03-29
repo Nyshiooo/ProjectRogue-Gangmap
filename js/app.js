@@ -1,6 +1,3 @@
-let labelIndex = 0;
-
-
 $(function() {
 	var showCoordinations = true;
 	var $types = $('.types');
@@ -22,6 +19,9 @@ $(function() {
 	};
 
 	Handlebars.registerHelper('timestampToSeconds', timestampToSeconds);
+	Handlebars.registerHelper('ifEquals', function(arg1, arg2, options) {
+		return (arg1 == arg2) ? options.fn(this) : options.inverse(this);
+	});
 
 	var Vent = _.extend({}, Backbone.Events);
 
@@ -78,61 +78,159 @@ $(function() {
 	});
 	var LocationsCollection = Backbone.Collection.extend({
 		model: LocationModel,
-		url: 'locations.json',
 	});
-
-	var locations = (window.locations = new LocationsCollection());
-
-	var CategoryModel = Backbone.Model.extend({});
+	var CategoryModel = Backbone.Model.extend({
+		initialize: function() {
+			this.name = this.get('name');
+			this.icon = this.get('icon');
+			this.enabled = this.get('enabled');
+			this.locations = new LocationsCollection;
+			this.locations.url = this.get('url');
+			this.locations.on('add', function(model) {
+				if (this.get('enabled')) {
+					Vent.trigger('locations:visible', this.locations.models);
+				}
+			}, this);
+		},
+		
+		fetch: function() {
+			this.locations.fetch();
+		},
+	});
 	var CategoriesCollection = Backbone.Collection.extend({
 		model: CategoryModel,
-
+		fetch: function() {
+			this.chain().each(function(c){c.locations.fetch()});
+		},
+	});
+	var SectionModel = Backbone.Model.extend({
+		initialize: function() {
+			this.name = this.get('name');
+			this.categories = this.get('categories');
+		},
+	});
+	var SectionCollection = Backbone.Collection.extend({
+		model: SectionModel,
+		fetch: function() {
+			this.chain().each(function(s){s.categories.fetch()});
+		},
 		forView: function(type) {
-			var g = this.groupBy('type');
-			return _(g).map(function(categories, type) {
+			return this.map(function(s) {
 				return {
-					name: type,
-					types: _.map(categories, function(category) {
-						return category.toJSON();
+					name: s.name,
+					categories: s.categories.map(function(c) {
+						return c.toJSON();
 					}),
 				};
 			});
 		},
 	});
-
-	var categories = (window.cats = new CategoriesCollection([
-		{
-			name: 'Territories',
-			icon: 'General/wall-breach.png',
-			type: 'General',
-			enabled: true,
-		},
-		{
-			name: 'POI',
-			icon: 'General/wall-breach.png',
-			type: 'General',
-			enabled: true,
-		},
-		/*
-		{
-			name: 'Deprecated',
-			icon: 'General/glitches.png',
-			type: 'General',
-			enabled: false,
-		},
-		*/
-	]));
-
+	var sections = new SectionCollection([
+		new SectionModel({
+			name: 'General',
+			categories: new CategoriesCollection([
+				new CategoryModel({
+					name: 'Neighborhoods',
+					icon: 'radar/radar_warehouse.png',
+					enabled: false,
+					url: 'data/neighborhoods.json',
+				}),
+				new CategoryModel({
+					name: 'Neutral',
+					icon: 'General/glitches.png',
+					enabled: true,
+					url: 'data/neutral.json',
+				}),
+				new CategoryModel({
+					name: 'Automotive',
+					icon: 'radar/radar_acsr_race_hotring.png',
+					enabled: true,
+					url: 'data/automotive.json',
+				}),
+				new CategoryModel({
+					name: 'Medical',
+					icon: 'radar/radar_hospital.png',
+					enabled: true,
+					url: 'data/medical.json',
+				}),
+			]),
+		}),
+		new SectionModel({
+			name: '4.0',
+			categories: new CategoriesCollection([
+				new CategoryModel({
+					name: 'Territories',
+					icon: 'General/wall-breach.png',
+					enabled: true,
+					url: 'data/territories.4.json',
+				}),
+				new CategoryModel({
+					name: 'Weed Turf',
+					icon: 'radar/radar_weed_stash.png',
+					enabled: true,
+					url: 'data/weed_turf.json',
+				}),
+				new CategoryModel({
+					name: 'Heists',
+					icon: 'radar/radar_heist.png',
+					enabled: true,
+					url: 'data/heists.4.json',
+				}),
+				new CategoryModel({
+					name: 'Legal',
+					icon: 'radar/radar_police_station.png',
+					enabled: true,
+					url: 'data/legal.4.json',
+				}),
+				new CategoryModel({
+					name: 'Restaurants',
+					icon: 'radar/radar_bar.png',
+					enabled: true,
+					url: 'data/restaurants.4.json',
+				}),
+			]),
+		}),
+		new SectionModel({
+			name: '3.0',
+			categories: new CategoriesCollection([
+				new CategoryModel({
+					name: 'Territories',
+					icon: 'General/wall-breach.png',
+					enabled: false,
+					url: 'data/territories.3.json',
+				}),
+				new CategoryModel({
+					name: 'Heists',
+					icon: 'radar/radar_heist.png',
+					enabled: false,
+					url: 'data/heists.3.json',
+				}),
+				new CategoryModel({
+					name: 'Legal',
+					icon: 'radar/radar_police_station.png',
+					enabled: false,
+					url: 'data/legal.3.json',
+				}),
+				new CategoryModel({
+					name: 'Restaurants',
+					icon: 'radar/radar_bar.png',
+					enabled: false,
+					url: 'data/restaurants.3.json',
+				}),
+			]),
+		}),
+	]);
+	
 	var showingLabels;
 	var CategoriesView = Backbone.View.extend({
 		initialize: function() {
-			this.template = Handlebars.compile($('#categoriesTemplate').html());
+			this.template = Handlebars.compile($('#sectionTemplate').html());
 		},
 
 		render: function() {
 			this.$el.html(
 				this.template({
-					categories: categories.forView(),
+					sections: sections.forView(),
 				})
 			);
 			$('#typeDetails').hide();
@@ -146,36 +244,38 @@ $(function() {
 
 		toggleLocations: function(e) {
 			var $e = $(e.currentTarget),
-				type = $e.val(),
-				showLocations = $e.is(':checked'),
-				models = locations.where({ type: type });
-
-			allLocations = categories.chain()
-				.filter(function(c) {
-					return c.get('enabled');
-				})
-				.map(function(c) {
-					return c.get('name');
-				})
-				.map(function(name) {
-					return locations.where({ type: name });
-				})
-				.flatten()
-				.value();
-
-			if (type == 'labels' && showLocations) {
-				Vent.trigger('labels:visible', allLocations);
-				showingLabels = true;
-				return;
-			} else if (type == 'labels') {
-				Vent.trigger('labels:invisible', allLocations);
-				showingLabels = false;
+				name = $e.val(),
+				section = $e.data('section'),
+				showLocations = $e.is(':checked');
+				
+			if (name == 'labels') {
+				var allLocations = sections.chain()
+					.map(function(s) {
+						return s.categories.filter(function(c) {
+							return c.get('enabled');
+						});
+					})
+					.flatten()
+					.map(function(c) {
+						return c.locations.models;
+					})
+					.flatten()
+					.value();
+				
+				if (showLocations) {					
+					Vent.trigger('labels:visible', allLocations);
+					showingLabels = true;
+				} else {
+					Vent.trigger('labels:invisible', allLocations);
+					showingLabels = false;
+				}
 				return;
 			}
+			
+			category = sections.findWhere({name: section}).categories.findWhere({name: name});
+			category.set('enabled', showLocations);
 
-			const cat = categories.findWhere({ name: $e.val() });
-			cat.set('enabled', showLocations);
-
+			var models = category.locations.models;
 			if (showLocations) {
 				Vent.trigger('locations:visible', models);
 				if (showingLabels) {
@@ -191,17 +291,17 @@ $(function() {
 
 		showDetails: function(e) {
 			e.preventDefault();
-			var typeName = $(e.currentTarget).data('name');
+			var section = $(e.currentTarget).data('section');
+			var name = $(e.currentTarget).data('name');
 			this.$el
-				.find('input[value="' + typeName + '"]')
+				.find('input[value="' + name + '"][data-section="' + section + '"]')
 				.prop('checked', true)
 				.trigger('change');
 
-			var type = categories.findWhere({ name: typeName });
-
 			var details = new CategoryDetailsView({
 				el: '#typeDetails',
-				type: type,
+				section: section,
+				category: name,
 			});
 			details.render();
 		},
@@ -225,7 +325,11 @@ $(function() {
 		},
 
 		showMarker: function(e) {
-			var location = locations.findWhere({ title: $(e.currentTarget).text() });
+			var section = $(e.currentTarget).data('section');
+			var name = $(e.currentTarget).data('name');
+			
+			var location = sections.findWhere({name: section}).categories.findWhere({name: name}).locations.findWhere({ title: $(e.currentTarget).text() });
+			
 			location.highlightMarker();
 			var bounds = new google.maps.LatLngBounds();
 			location
@@ -239,11 +343,14 @@ $(function() {
 		},
 
 		render: function() {
-			var name = this.options.type.get('name');
-			var locs = locations.where({ type: name });
+			var section = this.options.section;
+			var category = this.options.category;
+			var locs = sections.findWhere({name: section}).categories.findWhere({name: category}).locations.models;
+			
 			this.$el.html(
 				this.template({
-					type: this.options.type.toJSON(),
+					section: section,
+					category: category,
 					locations: _(locs).map(function(x) {
 						var d = x.toJSON();
 						return d;
@@ -307,6 +414,18 @@ $(function() {
 				google.maps.event.addListener(markerobject, 'drag', function(evt) {
 					infoWindow.setOptions({ content: getContent(evt) });
 				});
+				
+				// delete listener
+				google.maps.event.addListener(markerobject, 'rightclick', function(evt) {
+					const index = window.locs.indexOf(markerobject);
+					if (index > -1) {
+						window.locs.splice(index, 1);
+						markerobject.setMap(null);
+						window.locs.forEach(function (item, index) {
+							item.setLabel(String(index));
+						});
+					}
+				});
 			}
 
 			var map = (this.map = window.map = new google.maps.Map(this.el, this.mapOptions));
@@ -328,7 +447,7 @@ $(function() {
 					moveable: true,
 					draggable: true,
 					position: e.latLng,
-					label: String(labelIndex++),
+					label: String(window.locs.length),
 				});
 				window.locs.push(marker);
 				// Check if coords mode is enabled
@@ -488,37 +607,20 @@ $(function() {
 		el: '#types',
 		map: mapView.getMap(),
 	});
-
-	locations.fetch().done(function() {
-		mapView.render();
-		categoriesView.render();
-
-		categories
-			.chain()
-			.filter(function(c) {
-				return c.get('enabled');
-			})
-			.map(function(c) {
-				return c.get('name');
-			})
-			.map(function(name) {
-				return locations.where({ type: name });
-			})
-			.each(function(locs) {
-				Vent.trigger('locations:visible', locs);
-			})
-			.value();
-	});
+	
+	sections.fetch();
+	mapView.render();
+	categoriesView.render();
 });
 
 function printArray() {
 	var msg = 'Submit new regions here:\n'
-	+ 'https://github.com/Nyshiooo/ProjectRogue-Gangmap/issues\n\n'
-	+ 'or dm me on discord (nyshiooo)\n\n'
+	+ 'https://github.com/skyrossm/np-gangmap/issues\n\n'
 	+ 'Right click the map to add points to the region. You may have to toggle regions off to be able to right click on the bottom layer. Fill in the values marked "<edit here>" and title the new issue using the format: "Add <title> region". Copy and paste everything below this. If your browser does not support selecting the text below press F12 to open the developer console and copy it from there. (scroll down)\n\n';
 	msg += '```json\n\t{\n\t\t"type": "Territories",'
 	+ '\n\t\t"title": "<edit this>",'
 	+ '\n\t\t"notes": "<edit this>",'
+	+ '\n\t\t"wiki_link": "https://nopixel.fandom.com/wiki/<edit this>",'
 	+ '\n\t\t"order": 0,'
 	+ '\n\t\t"strokecolor": "FF0000",'
 	+ '\n\t\t"fillcolor": "FF0000",'
