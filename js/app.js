@@ -138,19 +138,19 @@ $(function() {
 				new CategoryModel({
 					name: 'Drug Spots',
 					icon: 'radar/radar_weed_stash.png',
-					enabled: true,
+					enabled: false,
 					url: 'data/weed_turf.json',
 				}),
 				new CategoryModel({
 					name: 'Heists',
 					icon: 'radar/radar_heist.png',
-					enabled: true,
+					enabled: false,
 					url: 'data/heists.4.json',
 				}),
 				new CategoryModel({
 					name: 'Legal',
 					icon: 'radar/radar_police_station.png',
-					enabled: true,
+					enabled: false,
 					url: 'data/legal.4.json',
 				}),
 			]),
@@ -161,7 +161,7 @@ $(function() {
 				new CategoryModel({
 					name: 'Districts',
 					icon: 'General/glitches.png',
-					enabled: true,
+					enabled: false,
 					url: 'data/neutral.json',
 				}),
 			]),
