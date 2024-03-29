@@ -155,6 +155,17 @@ $(function() {
 				}),
 			]),
 		}),
+		new SectionModel({
+			name: 'LSPD',
+			categories: new CategoriesCollection([
+				new CategoryModel({
+					name: 'Districts',
+					icon: 'General/glitches.png',
+					enabled: true,
+					url: 'data/neutral.json',
+				}),
+			]),
+		}),
 	]);
 	
 	var showingLabels;
