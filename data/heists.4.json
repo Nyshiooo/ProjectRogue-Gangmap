@@ -1,16 +1,16 @@
 [
 	{
-		"title": "Fleeca Bank 1",
+		"title": "Legion Square Fleeca Bank",
 		"notes": "The Fleeca Bank heist is a robbable banking and credit card company featured across Los Santos.",
-		"wiki_link": "https://nopixel.fandom.com/wiki/Fleeca_Bank",
+		"wiki_link": "",
 		"order": 0,
 		"strokecolor": "FFD700",
 		"fillcolor": "FFD700",
 		"latlngarray": [
-			{"lat": 16.073, "lng": 18.341},
-			{"lat": 16.073, "lng": 20.179},
-			{"lat": 14.999, "lng": 20.179},
-			{"lat": 14.999, "lng": 18.341}
+			{"lat": -67.475, "lng": -11.569},
+			{"lat": -67.751, "lng": -11.843},
+			{"lat": -67.946, "lng": -10.591},
+			{"lat": -67.668, "lng": -10.382}
 		]
 	},
 	{
