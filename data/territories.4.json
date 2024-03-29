@@ -32,7 +32,7 @@
 		]
 	},
 
-		{
+	{
 		"title": "Empire ",
 		"notes": "Known Area of the Empire",
 		"order": 0,
@@ -61,8 +61,6 @@
 			{"lat": -69.688, "lng": -6.216}
 		]
 	},
-
-
 	{
 		"title": "Black Rose Cartel",
 		"notes": "Known Area of the Black Rose Cartel or BRC",
@@ -85,7 +83,6 @@
 			{"lat": -73.386, "lng": 18.290}
 		]
 	},
-
 	{
 		"title": "Vikings MC",
 		"notes": "Known Area of Vikings MC",
@@ -115,8 +112,7 @@
 			{"lat": 57.854, "lng": 43.286}
 		]
 	},
-	
-		{
+	{
 		"title": "Bloods",
 		"notes": "Known Area of the Bloods",
 		"order": 0,
@@ -133,7 +129,6 @@
 			{"lat": -75.609, "lng": -4.373}
 		]
 	},
-	
 	{
 		"title": "Sharks",
 		"notes": "Known Area of the Sharks",
